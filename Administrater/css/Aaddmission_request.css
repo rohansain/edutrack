@@ -1,0 +1,44 @@
+.app {
+    background-color: rgb(124, 168, 249);
+}
+.class{
+    border: 2px solid gray;
+    border-radius:4px;
+}
+table{
+    border:8px solid rgb(111, 109, 109);
+    border-radius: 2%;
+    width: 50%;
+    background-color: rgb(195, 194, 250);
+    color: blanchedalmond;
+    font-size: 1.4vw;
+    padding: 20px;
+    height: 50vh;
+    margin: auto;
+}
+input[type="submit"]{
+    background-color: rgb(255, 174, 0);
+    padding: 10px;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    font-size: 1vw;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(7, 6, 5);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+input[type="reset"]{
+    background-color: rgb(255, 174, 0);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1vw;
+    border-radius: 10px;
+}
+input[type="reset"]:hover{
+    color: white;
+    background-color: red;
+    border-color: red;
+    cursor: pointer;
+}

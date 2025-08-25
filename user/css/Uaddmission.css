@@ -1,0 +1,75 @@
+body {
+    background-color: #ab47bc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-image: url(rr.jpg);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(32, 28, 28);
+    text-shadow: 1px 1px white;
+
+}
+
+marquee {
+    color: rgb(255, 38, 0);
+    font-size: 1.2rem;
+}
+.footer{
+    margin-top: 5vh;
+	background-color: #24262b;
+    padding: 70px 0;
+}
+table {
+    background-color: rgb(253, 254, 255);
+    border-radius: 7px;
+    margin: auto;
+    padding: 25px 25px;
+    height: 600px;
+    width: 70%;
+}
+
+textarea,
+table td input {
+
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+th{
+    float: left;
+}
+
+select {
+    border-radius: 08px;
+    background-color: rgb(240, 242, 242) !important;
+
+}
+
+.submit,.reset {
+    font-weight: bold;
+    background-color: rgb(212, 113, 113);
+    height: 25px;
+    width: 70px;
+    border: 2px solid rgb(58, 58, 60);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.reset:hover {
+    cursor: pointer;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 90px;
+    background-color: red;
+}
+.submit:hover {
+    cursor: pointer;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    background-color: green;
+}

@@ -1,0 +1,231 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    /* border: none; */
+    box-sizing: border-box;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.main {
+    background-color: rgb(205, 227, 247);
+    width: 98vw;
+    border: 2.5px solid rgb(84, 65, 173);
+    /* height: auto; */
+    /* background: url('roaem_logo_  11\ \(2\).png') no-repeat center; */
+    /* padding: 2px; */
+    /* background-size: 36%; */
+    /* margin: -8px auto; */
+
+}
+
+.FirstRow {
+    display: flex;
+    border-bottom: 1PX solid rgb(113, 113, 114);
+    /* padding: -3px 06px; */
+
+}
+
+.img {
+    width: 75px;
+    height: 80px;
+}
+
+.header {
+    /* margin: auto;  */
+    width: 100vw;
+    font-size: large;
+}
+
+#heading1 {
+    float: left;
+    width: 24vw;
+    padding-left: 1%;
+}
+
+#heading2 {
+    text-align: center;
+    margin: 0 auto;
+    width: 52vw;
+}
+
+#heading3 {
+    font-size: smaller;
+    text-align: right;
+    float: right;
+    width: 24vw;
+    padding-right: 1%;
+
+}
+
+.SecondRow {
+    width: 100vw;
+    text-align: center;
+    border-bottom: 1PX solid rgb(113, 113, 114);
+}
+.ThirdRow{
+    display: flex;
+    border-bottom: 1PX solid rgb(113, 113, 114);
+
+}
+
+.ThirdRow1 {
+    width: 43vw;
+    padding-left: 2%;
+    /* margin: 0px 165px 0px 19px; */
+}
+.ThirdRow2 {
+    width: 28vw;
+    /* margin: 0px 165px 0px 19px; */
+    /* padding-left: 2%; */
+}
+.ThirdRow3 {
+    width: 28vw;
+    /* margin: 0px 165px 0px 19px; */
+    /* padding-left: 2%; */
+}
+
+.FourthRow {
+    width: 100vw;
+    padding-left: 2vw;
+    /* margin: -5px 0px 0px 20px; */
+    /* font-size: large; */
+}
+
+.FourthRow>h4 {
+    line-height: 15%;
+}
+
+.FifthRow {
+    border: 1px solid rgb(113, 113, 114);
+    width: 99%;
+    margin: 0 auto;
+    /* margin: auto; */
+    /* margin: -5px 0px 19px 5px; */
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+th,
+td {
+    border: 1px solid rgb(113, 113, 114);
+    border-style: dashed;
+    border-radius: 4px;
+    text-align: center;
+    /* width: 2%; */
+}
+
+td:nth-child(2n+3) {
+    /*first for every end item and 2nd value for starting */
+    font-weight: bolder;
+}
+
+td:nth-child(2n+2) {
+    /*first for every end item and 2nd value for starting */
+    font-weight: bold;
+}
+
+
+.SixthRow {
+    width: 99%;
+    display: flex;
+    font-size: large;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    /* margin: auto; */
+    /* padding-right: 5%; */
+    /* padding: 0.5%; */
+    /* margin: 0px 0px 8px 11px; */
+}
+
+.sixthrow1 {
+    float: left;
+    width: 33%;
+
+}
+
+.sixthrow2 {
+    float: center;
+    width: 66%;
+}
+
+.SeventhRow {
+    /* margin: 3px 2px 3px 11px; */
+    /* padding-right: 10%; */
+    display: flex;
+    width: 99%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-size: large;
+}
+
+.SeventhRow1 {
+    /* float: left; */
+    width: 33%;
+}
+
+.SeventhRow2 {
+    /* float: center; */
+    width: 33%;
+}
+
+.SeventhRow3 {
+    /* float: right; */
+    width: 33%;
+}
+
+.NineRow {
+    display: flex;
+}
+
+
+.NineRow {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 6px 48px 0px 19px; */
+    width: 99%;
+    font-size: large;
+    margin-left: 2%;
+    /* margin-bottom: -4%; */
+}
+
+.NineRow1 {
+    margin-right: 218px;
+
+    float: left;
+    width: 35%;
+}
+
+.NineRow2 {
+    /* margin-right: 218px; */
+    margin: 0 auto;
+    width: 33%;
+}
+
+.NineRow3 {
+    /* margin-right: 218px; */
+    float: right;
+    width: 32%;
+}
+
+.Signature {
+    width: 33%;
+    height: 40%;
+    /* margin: 7px 4px 5px 44px; */
+}
+
+.Logo {
+    width: 33%;
+    height: 40%;
+    /* margin: -4px 0px -22px 63px; */
+
+}
+
+.NineBorder {
+    border-top: 1px solid gray;
+}

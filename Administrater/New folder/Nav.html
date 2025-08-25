@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive Navbar</title>
+	<link rel="stylesheet" href="../css/Anav.css" />
+</head>
+<body>
+	<div class="app">
+		<div class="menu-toggle">
+			<div class="hamburger">
+				<span></span>
+			</div>
+		</div>
+
+		<aside class="sidebar">
+			<h3>Menu</h3>
+			
+			<nav class="menu">
+                <a href="#" class="menu-item is-active ram1">Home</a>
+                <a href="#" class="menu-item ram2">Admission</a>
+                <a href="#" class="menu-item ram3">Update Student</a>
+                <a href="#" class="menu-item ram4">Result</a>
+                <a href="#" class="menu-item ram5">Notice</a>
+                <a href="#" class="menu-item ram6">Rules</a>
+                <a href="#" class="menu-item ram7">Contact</a>
+                <a href="#" class="menu-item ram8">Add admins</a>			
+                <a href="#" class="menu-item ram9">Logout</a>
+			</nav>
+	</div>
+
+	<script>
+		const menu_toggle = document.querySelector('.menu-toggle');
+		const sidebar = document.querySelector('.sidebar');
+
+		menu_toggle.addEventListener('click', () => {
+			// menu_toggle.classList.toggle('is-active');
+			sidebar.classList.toggle('is-active');
+		});
+
+		const ram1 = document.querySelector('.ram1');
+		const ram2 = document.querySelector('.ram2');
+		const ram3 = document.querySelector('.ram3');
+		const ram4 = document.querySelector('.ram4');
+		const ram5 = document.querySelector('.ram5');
+		const ram6 = document.querySelector('.ram6');
+		const ram7 = document.querySelector('.ram7');
+		const ram9 = document.querySelector('.ram9');
+		const ram8 = document.querySelector('.ram8');
+
+		ram1.addEventListener('click',()=>{
+			myFunction('ram1');
+		});
+
+		ram2.addEventListener('click',()=>{
+			myFunction('ram2');
+		});
+
+		ram3.addEventListener('click',()=>{
+			myFunction('ram3');
+		});
+
+		ram4.addEventListener('click',()=>{
+			myFunction('ram4');
+		});
+
+		ram5.addEventListener('click',()=>{
+			myFunction('ram5');
+		});
+
+		ram6.addEventListener('click',()=>{
+			myFunction('ram6');
+		});
+
+		ram7.addEventListener('click',()=>{
+			myFunction('ram7');
+		});
+
+		ram8.addEventListener('click',()=>{
+			myFunction('ram8');
+		});
+
+		ram9.addEventListener('click',()=>{
+			myFunction('ram9');
+		});
+
+
+		function myFunction(name) {
+			// is function mai sabhi nav mai se is-active wali class hta denge to jis menu per click hua tha uska name argument mai lekr usme is-active add kr denge
+			var element = document.querySelector('.ram1');
+  			element.classList.remove("is-active");
+
+			var element = document.querySelector('.ram2');
+  			element.classList.remove("is-active");
+
+			var element = document.querySelector('.ram3');
+  			element.classList.remove("is-active");
+
+			var element = document.querySelector('.ram4');
+  			element.classList.remove("is-active");
+
+			var element = document.querySelector('.ram5');
+  			element.classList.toggle("is-active");
+
+			var element = document.querySelector('.ram6');
+			element.classList.remove("is-active");
+
+			var element = document.querySelector('.ram7');
+			element.classList.remove("is-active");
+
+			var element = document.querySelector('.ram8');
+			element.classList.remove("is-active");
+
+			var element = document.querySelector('.ram9');
+			element.classList.toggle("is-active");
+
+			  name="."+name;
+			  
+			  console.log(name);
+			var element = document.querySelector(name);
+			element.classList.add("is-active");
+
+		}
+	</script>
+</body>
+</html>

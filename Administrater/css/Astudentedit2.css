@@ -1,0 +1,77 @@
+
+/* This is common code */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+
+
+body{
+    background-color: rgb(124, 168, 249);
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(50, 119, 249);
+    background-image: url(rr.jpg);
+   /* background-color: #f3f5f9; */
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+
+
+
+
+/* this is specific css */
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+marquee {
+    color: tomato;
+}
+
+table {
+    background-color: rgb(195, 239, 252);
+    border: 8px solid rgb(57, 72, 153);
+    border-radius: 5px;
+    margin: auto;
+    padding: 25px 25px;
+    height: 100vh;
+    width: 70%;
+}
+
+textarea, table td input {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+}
+input[type="submit"]{
+    background-color: rgb(255, 174, 0);
+    padding: 10px;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    font-size: 1vw;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(32, 174, 29);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+input[type="reset"]{
+    background-color: rgb(255, 174, 0);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1vw;
+    border-radius: 10px;
+}
+input[type="reset"]:hover{
+    color: white;
+    background-color: red;
+    border-color: red;
+    cursor: pointer;
+}

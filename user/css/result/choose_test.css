@@ -1,0 +1,36 @@
+/* main editing */
+
+.main_ct{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(241, 162, 175);
+}
+.container_ct a{
+    display: block;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.container_ct a:hover{
+    font-size: 1.7rem;
+    text-shadow: 0.2px 0.1px rgb(24, 23, 23);
+}
+
+.testchoose{
+    width: 20vw;
+    margin: 0.1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(225, 150, 162);
+
+
+}

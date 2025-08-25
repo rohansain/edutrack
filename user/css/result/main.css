@@ -1,0 +1,68 @@
+
+
+  /* main body */
+  .building{
+    width: 100vw;
+  }
+  .main_body{
+    background: url('../photo/roaem_building.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+   
+  }
+  .greet{
+    text-align: center;
+    position: relative;
+    top: 6%;
+  }
+  
+
+/* Footer editing */
+body{
+    background-color: pink;
+    margin: 0px;
+    padding: 0px;
+}
+.container_main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 79vh;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(13, 10, 10);
+    font-weight: bold;
+    font-family: cursive;
+}
+.head_main{
+    border: 2px solid black;
+    text-align: center;
+    background-color: #FFE7BD;
+}
+label{
+    font-size: 20px;
+}
+
+input{
+    margin-top: 20px;
+}
+.button{
+    height: 4vh;
+    border-radius: 6px;
+    margin-left: 5px;
+    background-color: black;
+    color: rgb(255, 248, 248);
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: green;
+    height: 5vh;
+    width: 10vw;
+}
+.reset:hover{
+    background-color: red;
+    height: 5vh;
+    width: 10vw;
+}

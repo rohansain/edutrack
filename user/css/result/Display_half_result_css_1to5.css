@@ -1,0 +1,135 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    background-color: lightyellow;
+
+}
+
+body {
+    background: url('roaem_logo.png') no-repeat center;
+    height: fit-content;
+    margin: 2px;
+    padding: 0px;
+    border: 1.5px solid rgb(113, 113, 114);
+}
+
+.container {
+    display: flex;
+    border-bottom: 1PX solid rgb(113, 113, 114);
+    padding: -3px 06px;
+}
+
+.img {
+    width: 78px;
+    height: 80px;
+    margin: 2px;
+}
+
+.header {
+    margin: 8px16px;
+    width: auto;
+    font-size: large;
+}
+
+#heading1 {
+    padding-right: 26%;
+}
+
+#heading2 {
+    padding-right: 6%;
+}
+
+#heading3 {
+    font-size: smaller;
+    text-align: right;
+    padding-left: 167px;
+}
+
+.SecondRow {
+    padding-left: 40%;
+    margin-top: -10px;
+    border-bottom: 1PX solid rgb(113, 113, 114);
+}
+
+.ThirdRow {
+    /* margin: 0px 165px 0px 19px; */
+    width: auto;
+    padding-right: 10%;
+    font-size: large;
+}
+
+.FourthRow {
+    margin: -5px 0px 0px 20px;
+    padding: 0%;
+    width: auto;
+    font-size: large;
+}
+
+.FourthRow>h4 {
+    line-height: 15%;
+}
+
+.FifthRow {
+    width: 99%;
+    border: 1px solid rgb(113, 113, 114);
+    margin: -5px 0px 19px 5px;
+}
+
+th,
+td {
+    border: 1px solid rgb(113, 113, 114);
+    border-style: dashed;
+    border-radius: 4px;
+    width: 138px;
+
+}
+
+td:nth-child(2n+3) {
+    /*first for every end item and 2nd value for starting */
+    font-weight: bold;
+}
+
+.SixthRow {
+    display: flex;
+    margin: 0px 0px 8px 11px;
+    width: 54%;
+    padding-right: 0%;
+    font-size: large;
+}
+
+.SeventhRow {
+    display: flex;
+    margin: 3px 2px 3px 11px;
+    width: 88%;
+    padding-right: 10%;
+    font-size: large;
+}
+
+.Signature {
+    width: 52%;
+    height: 28%;
+    margin: 7px 4px 5px 44px;
+}
+
+.Logo {
+    width: 39%;
+    height: 60%;
+    margin: -4px 0px -22px 63px;
+
+}
+
+.NineRow {
+    display: flex;
+    margin: 6px 48px 0px 19px;
+    width: 98%;
+    font-size: large;
+}
+
+.NineRow1 {
+    margin-right: 218px;
+}
+
+.ExWidth {
+    width: 30%;
+    padding-bottom: 1%;
+}

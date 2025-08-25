@@ -1,0 +1,67 @@
+
+/* This is common code */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(152, 146, 255);
+    font-family: cursive;
+    font-weight: bold;
+    color: cornflowerblue;
+    background-image: url(rr.jpg);
+   /* background-color: #f3f5f9; */
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+
+.app content{
+  width: 100%;
+  background-color: aqua;
+  /* margin-left: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+/* this is specific css */
+h1 {
+    text-align: center;
+    color: violet;
+
+}
+
+marquee {
+    color: tomato;
+}
+
+table {
+    background-color: rgb(195, 239, 252);
+    border: 8px solid rgb(57, 72, 153);
+    border-radius: 7px;
+    margin: auto;
+    padding: 25px 25px;
+    height: 600px;
+    width: 70%;
+}
+
+textarea, table td input {
+    border-radius: 08px;
+    background-color: aqua;
+}
