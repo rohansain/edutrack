@@ -2,11 +2,11 @@
 
 A simple school website with a public-facing site (home, about, admissions, contact, notices, results) and an admin panel to manage content, students, results, and notices. Built with **plain PHP (mysqli)**, **MySQL/MariaDB**, and vanilla **HTML/CSS/JS**.
 
-> ⚠️ **Important:** This code is intended for learning/demos. Passwords are stored in plain text and many SQL queries are not parameterized. **Do not deploy to the public internet** without hardening (see *Security Notes*).
+>  **Important:** This code is intended for learning/demos. Passwords are stored in plain text and many SQL queries are not parameterized. **Do not deploy to the public internet** without hardening (see *Security Notes*).
 
 ---
 
-## ✨ Features
+## Features
 
 **Public site (`/user/php/`):**
 
@@ -27,7 +27,7 @@ A simple school website with a public-facing site (home, about, admissions, cont
 
 ---
 
-## 🗂️ Project Structure (trimmed)
+## Project Structure (trimmed)
 
 ```
 roaem_school_main/
@@ -72,7 +72,7 @@ roaem_school_main/
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 * **PHP** (mysqli, no framework)
 * **MySQL/MariaDB** (multiple DBs: admins, about, notice, contact\_request, addmission, roaem\_database, result\_class1..10)
@@ -80,7 +80,7 @@ roaem_school_main/
 
 ---
 
-## 🚀 Quick Start (Local)
+## Quick Start (Local)
 
 ### Option A: XAMPP / WAMP (Apache + MySQL)
 
@@ -133,7 +133,7 @@ Then visit:
 
 ---
 
-## 🔐 Default Admin Credentials (change ASAP)
+## Default Admin Credentials (change ASAP)
 
 After running `firstrunforadmin.php` the following user is seeded:
 
@@ -149,7 +149,7 @@ password: r1
 
 ---
 
-## 🗄️ Database Overview (created by scripts)
+## Database Overview (created by scripts)
 
 * **admins** → `password` (admin auth)
 * **about** → `about_info` (about-page copy)
@@ -163,7 +163,7 @@ password: r1
 
 ---
 
-## 🧭 Key Pages
+## Key Pages
 
 **Public**
 
@@ -185,7 +185,7 @@ password: r1
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 * **DB Credentials:** hard-coded in multiple files (`Administrater/php/partials/*.php` and `pre_run/main.php/*.php`).
 
@@ -194,7 +194,7 @@ password: r1
 
 ---
 
-## 🧪 Test Data
+## Test Data
 
 Run the three scripts under `pre_run/main.php/` to seed:
 
@@ -204,7 +204,7 @@ Run the three scripts under `pre_run/main.php/` to seed:
 
 ---
 
-## 🖼️ Screenshots (add later)
+## Screenshots (add later)
 
 Create a `docs/` folder and add screenshots/GIFs of:
 
@@ -215,7 +215,7 @@ Then reference them here in Markdown.
 
 ---
 
-## 🛡️ Security Notes (for production hardening)
+## Security Notes (for production hardening)
 
 * **Passwords:** stored in plain text (table `admins.password`). Use hashing (e.g., `password_hash`) and verify via `password_verify`.
 * **SQL Injection:** many raw SQL strings with interpolated user input. Switch to parameterized queries (mysqli prepared statements / PDO).
@@ -240,7 +240,7 @@ Then reference them here in Markdown.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repo
 2. Create a feature branch: `git checkout -b feat/your-change`
@@ -250,7 +250,7 @@ Then reference them here in Markdown.
 
 ---
 
-## 📄 License
+## License
 
 Choose a license that fits your needs (e.g., MIT). Example:
 
@@ -260,7 +260,7 @@ MIT License — see LICENSE for details
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 * Static assets and icons as referenced in the code
 * Built as a school website learning project (comments include helpful Hindi notes)
